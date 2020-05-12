@@ -105,12 +105,12 @@ import { getUrlQueryValue } from '@utils/common'
 import api from '@api'
 
 let systemInfo = {
-  fullName: '学生管理系统',
+  fullName: '学生工作服务平台',
   shortName: 'SWP',
   englishName: 'SWP',
-  version: 'V0.9',
+  version: 'V1.2.4',
   powerByName: 'wwzhen',
-  powerByLink: 'https://github.com/wwzhen/studentServicePlatform'
+  powerByLink: 'https://github.com/lcw2004'
 }
 
 export default {
@@ -313,7 +313,7 @@ export default {
 
   /*背景图片*/
   .login-bg-img-balloon {
-    background-image: url("./images/bg.jpg");
+    background-image: url("./images/bg-img-2.jpg");
   }
 
   .login-header {
